@@ -31,7 +31,7 @@
             this.Julia = new System.Windows.Forms.PictureBox();
             this.Mandelbrot = new System.Windows.Forms.PictureBox();
             this.newCoords = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.xMin = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
@@ -72,44 +72,44 @@
             this.newCoords.Location = new System.Drawing.Point(1020, 189);
             this.newCoords.Name = "newCoords";
             this.newCoords.Size = new System.Drawing.Size(219, 72);
-            this.newCoords.TabIndex = 2;
+            this.newCoords.TabIndex = 5;
             this.newCoords.Text = "Draw New Coordinates";
             this.newCoords.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // xMin
             // 
-            this.textBox1.Location = new System.Drawing.Point(857, 42);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(157, 20);
-            this.textBox1.TabIndex = 3;
+            this.xMin.Location = new System.Drawing.Point(857, 42);
+            this.xMin.Name = "xMin";
+            this.xMin.Size = new System.Drawing.Size(157, 20);
+            this.xMin.TabIndex = 1;
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(857, 68);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(157, 20);
-            this.textBox2.TabIndex = 4;
+            this.textBox2.TabIndex = 3;
             // 
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(1245, 42);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(158, 20);
-            this.textBox3.TabIndex = 5;
+            this.textBox3.TabIndex = 2;
             // 
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(1245, 68);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(158, 20);
-            this.textBox4.TabIndex = 6;
+            this.textBox4.TabIndex = 4;
             // 
             // RealLabel
             // 
             this.RealLabel.Location = new System.Drawing.Point(857, 9);
             this.RealLabel.Name = "RealLabel";
             this.RealLabel.Size = new System.Drawing.Size(259, 23);
-            this.RealLabel.TabIndex = 7;
+            this.RealLabel.TabIndex = 1;
             this.RealLabel.Text = "Real Coordinates (X values)";
             this.RealLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -118,7 +118,7 @@
             this.ImagLabel.Location = new System.Drawing.Point(1122, 9);
             this.ImagLabel.Name = "ImagLabel";
             this.ImagLabel.Size = new System.Drawing.Size(281, 23);
-            this.ImagLabel.TabIndex = 8;
+            this.ImagLabel.TabIndex = 0;
             this.ImagLabel.Text = "Imaginary Coordinates (Yi values)";
             this.ImagLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -127,7 +127,7 @@
             this.minLabel.Location = new System.Drawing.Point(1020, 42);
             this.minLabel.Name = "minLabel";
             this.minLabel.Size = new System.Drawing.Size(219, 19);
-            this.minLabel.TabIndex = 9;
+            this.minLabel.TabIndex = 0;
             this.minLabel.Text = "Minimum Value";
             this.minLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -136,7 +136,7 @@
             this.maxVal.Location = new System.Drawing.Point(1020, 68);
             this.maxVal.Name = "maxVal";
             this.maxVal.Size = new System.Drawing.Size(219, 19);
-            this.maxVal.TabIndex = 10;
+            this.maxVal.TabIndex = 0;
             this.maxVal.Text = "Maximum Value";
             this.maxVal.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -152,7 +152,7 @@
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.xMin);
             this.Controls.Add(this.newCoords);
             this.Controls.Add(this.Julia);
             this.Controls.Add(this.Mandelbrot);
@@ -170,7 +170,7 @@
         private System.Windows.Forms.PictureBox Mandelbrot;
         private System.Windows.Forms.PictureBox Julia;
         private System.Windows.Forms.Button newCoords;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox xMin;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
