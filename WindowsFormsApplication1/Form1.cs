@@ -16,5 +16,20 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void Mandelbrot_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void newCoords_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Mandelbrot_DoubleClick(object sender, EventArgs e)
+        {
+            MessageBox.Show(string.Format("X: {0} Y: {1}", MousePosition.X, MousePosition.Y));
+        }
     }
 }

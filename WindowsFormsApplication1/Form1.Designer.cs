@@ -50,7 +50,7 @@
             this.Julia.InitialImage = global::WindowsFormsApplication1.Properties.Resources.IMG_73925582093831;
             this.Julia.Location = new System.Drawing.Point(831, 267);
             this.Julia.Name = "Julia";
-            this.Julia.Size = new System.Drawing.Size(572, 349);
+            this.Julia.Size = new System.Drawing.Size(575, 350);
             this.Julia.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.Julia.TabIndex = 1;
             this.Julia.TabStop = false;
@@ -63,9 +63,11 @@
             this.Mandelbrot.InitialImage = global::WindowsFormsApplication1.Properties.Resources._20140906_161616;
             this.Mandelbrot.Location = new System.Drawing.Point(12, 12);
             this.Mandelbrot.Name = "Mandelbrot";
-            this.Mandelbrot.Size = new System.Drawing.Size(813, 604);
+            this.Mandelbrot.Size = new System.Drawing.Size(800, 600);
             this.Mandelbrot.TabIndex = 0;
             this.Mandelbrot.TabStop = false;
+            this.Mandelbrot.Click += new System.EventHandler(this.Mandelbrot_Click);
+            this.Mandelbrot.DoubleClick += new System.EventHandler(this.Mandelbrot_DoubleClick);
             // 
             // newCoords
             // 
@@ -75,6 +77,7 @@
             this.newCoords.TabIndex = 5;
             this.newCoords.Text = "Draw New Coordinates";
             this.newCoords.UseVisualStyleBackColor = true;
+            this.newCoords.Click += new System.EventHandler(this.newCoords_Click);
             // 
             // xMin
             // 
