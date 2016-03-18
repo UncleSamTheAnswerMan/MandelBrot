@@ -1,1 +1,9 @@
 D:\EventDriven CS3350\MandelBrot\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\EventDriven CS3350\MandelBrot\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\EventDriven CS3350\MandelBrot\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\EventDriven CS3350\MandelBrot\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+D:\EventDriven CS3350\MandelBrot\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+D:\EventDriven CS3350\MandelBrot\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\EventDriven CS3350\MandelBrot\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+D:\EventDriven CS3350\MandelBrot\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\EventDriven CS3350\MandelBrot\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
