@@ -45,9 +45,8 @@
             // 
             // Julia
             // 
-            this.Julia.BackgroundImage = global::WindowsFormsApplication1.Properties.Resources.IMG_73925582093831;
-            this.Julia.ErrorImage = global::WindowsFormsApplication1.Properties.Resources.IMG_73925582093831;
-            this.Julia.InitialImage = global::WindowsFormsApplication1.Properties.Resources.IMG_73925582093831;
+            this.Julia.ErrorImage = null;
+            this.Julia.InitialImage = null;
             this.Julia.Location = new System.Drawing.Point(831, 267);
             this.Julia.Name = "Julia";
             this.Julia.Size = new System.Drawing.Size(575, 350);
@@ -57,17 +56,15 @@
             // 
             // Mandelbrot
             // 
-            this.Mandelbrot.BackgroundImage = global::WindowsFormsApplication1.Properties.Resources._20140906_161616;
             this.Mandelbrot.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Mandelbrot.ErrorImage = global::WindowsFormsApplication1.Properties.Resources._20140906_161616;
-            this.Mandelbrot.InitialImage = global::WindowsFormsApplication1.Properties.Resources._20140906_161616;
+            this.Mandelbrot.ErrorImage = null;
+            this.Mandelbrot.InitialImage = null;
             this.Mandelbrot.Location = new System.Drawing.Point(12, 12);
             this.Mandelbrot.Name = "Mandelbrot";
             this.Mandelbrot.Size = new System.Drawing.Size(800, 600);
             this.Mandelbrot.TabIndex = 0;
             this.Mandelbrot.TabStop = false;
-            this.Mandelbrot.Click += new System.EventHandler(this.Mandelbrot_Click);
-            this.Mandelbrot.DoubleClick += new System.EventHandler(this.Mandelbrot_DoubleClick);
+            this.Mandelbrot.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Mandelbrot_MouseClick);
             // 
             // newCoords
             // 
@@ -161,6 +158,7 @@
             this.Controls.Add(this.Mandelbrot);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Julia)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Mandelbrot)).EndInit();
             this.ResumeLayout(false);
